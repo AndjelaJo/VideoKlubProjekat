@@ -1,0 +1,126 @@
+.filmKontejner{
+    display: flex;
+    flex-direction: column;
+    margin: 1px 0px  1px 5px;
+    border: 1px solid black;
+    background-color: silver;
+    max-width: 200px;
+    min-width: 100px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.redKontejner{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 2px;
+   
+}
+
+.oznakaKontejner{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 120px;
+    min-width: 120px;
+}
+
+.filmoviKontejner{
+    display: flex;
+    flex-direction: row;
+    flex: 13 1 300px;
+    margin: 0px 2px;
+
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.formaKontejner{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 200px;
+    background-color:burlywood;
+    margin: 2px;
+    border: 3px solid black;
+}
+
+.klubKontejner{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    border: 5px solid black;
+    padding: 1px;
+}
+
+.naslovKontejner{
+    display: flex;
+    flex-direction: column;
+    /*background-color: coral;*/
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+    
+}
+
+.izbor1Kontejner, .izbor2Kontejner{
+    display: flex;
+    flex-direction: column;
+    /*background-color: chocolate;*/
+    margin: 5px;
+    border: 2px solid black;
+    padding: 5px;
+   
+
+}
+
+.prviKontejner{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+   
+}
+
+.pomocni{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5px;
+    /*border: 0.5px solid black;*/
+}
+
+.drugiKontejner{
+    display: flex;
+    flex-direction: column;
+    margin: 2px;
+    
+}
+
+.redoviKontejner{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 2px;
+    border: 3px solid black;
+    flex: 13 1 400px;
+    background-color: burlywood;
+    /*overflow-x: scroll;*/
+}
+
+.izbor1Kontejner input, button{
+    margin: 2px;
+}
+
+.izbor2Kontejner input, button{
+    margin: 2px;
+}
+
+.kaseteKontejner .filmKontejner:last-child{
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 500px) {.klubKontejner {
+    display: flex;
+    flex-direction: column;
+}}
+
+
