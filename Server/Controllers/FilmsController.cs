@@ -45,7 +45,6 @@ namespace Server.Controllers
             await Context.SaveChangesAsync();
         }
 
-
         [Route("UpisiFilm/{idReda}")]
         [HttpPost]
         public async Task<int> PostFilm(int idReda, [FromBody] Film film)
@@ -57,7 +56,6 @@ namespace Server.Controllers
 
             return film.ID;
         }
-
 
         [Route("IzbrisiFilm/{id}")]
         [HttpDelete]
